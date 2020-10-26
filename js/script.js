@@ -11,6 +11,7 @@ for (var i = 0; i < 100; i++)
   numero = numero + 1;
   // console.log(numero);
 
+  // numeri multipli sia di 3 che di 5
   if (numero % 3 == 0 && numero % 5 == 0) {
     console.log("FizzBuzz");
     document.write("<p>FizzBuzz</p>");
