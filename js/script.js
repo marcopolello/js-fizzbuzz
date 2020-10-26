@@ -11,7 +11,7 @@ for (var i = 0; i < 100; i++)
   numero = numero + 1;
   // console.log(numero);
 
-  // numeri multipli sia di 3 che di 5
+  // stampa delle varie stringhe
   if (numero % 3 == 0 && numero % 5 == 0) {
     console.log("FizzBuzz");
     document.write("<p>FizzBuzz</p>");
@@ -28,6 +28,3 @@ for (var i = 0; i < 100; i++)
     num.innerHTML = numero;
   }
 }
-
-
-// multipli di 3 voglio che risultino una stringa
