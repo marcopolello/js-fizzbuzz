@@ -13,12 +13,18 @@ for (var i = 0; i < 100; i++)
 
   if (numero % 3 == 0 && numero % 5 == 0) {
     console.log("FizzBuzz");
+    document.write("<p>FizzBuzz</p>");
   } else if (numero % 3 == 0) {
     console.log("Fizz");
+    document.write("<p>Fizz</p>");
   } else if (numero % 5 == 0){
     console.log("Buzz");
+    document.write("<p>Buzz</p>");
   } else {
     console.log(numero);
+    var num = document.createElement("p");
+    document.body.appendChild(num);
+    num.innerHTML = numero;
   }
 }
 
