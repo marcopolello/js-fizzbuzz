@@ -9,9 +9,17 @@ for (var i = 0; i < 100; i++)
 {
   // lista numeri da 1 100
   numero = numero + 1;
-  var listaNumeri = numero
-  console.log(listaNumeri);
+  // console.log(numero);
 
+  if (numero % 3 == 0 && numero % 5 == 0) {
+    console.log("FizzBuzz");
+  } else if (numero % 3 == 0) {
+    console.log("Fizz");
+  } else if (numero % 5 == 0){
+    console.log("Buzz");
+  } else {
+    console.log(numero);
+  }
 }
 
 
